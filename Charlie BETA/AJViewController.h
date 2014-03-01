@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface AJViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *charlieLabel;
 
 @end
